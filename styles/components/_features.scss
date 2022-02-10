@@ -1,0 +1,29 @@
+.features {
+
+    background-image: linear-gradient( 
+        to right,
+        rgba($color-red, 1), 
+        rgba($color-orange, 1));
+
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    .feature {
+
+        display: flex;
+        align-items: center;
+
+        span {
+
+            padding: 2.7rem;
+            background-color: white;
+            border-radius: 50rem;
+            margin-right: 2rem;
+        }
+
+        .feature__text {
+
+            color: white;
+        }
+    }
+}

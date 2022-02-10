@@ -1,0 +1,17 @@
+.home_container {
+    height: 100rem;
+}
+
+.test {
+    height: 100rem;
+}
+
+@import "./base/base";
+@import "./abstracts/variables";
+@import "./components/notification";
+@import "./components/navbar";
+@import "./components/features";
+@import "./components/footer";
+@import "./components/submenu";
+
+
